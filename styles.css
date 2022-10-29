@@ -1,0 +1,244 @@
+h1{
+    display: flex;
+    justify-content: center;
+    color: tomato;
+    font-size: 50px;
+    
+}
+
+body{
+    background-color: lightskyblue;
+
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+    
+    height: 1000px;
+
+}
+
+span:hover{
+
+color: dodgerblue;
+
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: lightcyan;
+    margin: 20px;
+    border-radius: 100px;
+    opacity: .5;
+}
+
+.bouncy{
+
+    animation: bouncy 60s infinite;
+    position: relative;
+
+}
+
+.bouncy3{
+
+    animation: bouncy 80s infinite;
+    position: relative;
+}
+
+
+.bouncy2{
+
+    animation: bouncy 70s infinite;
+    position: relative;
+
+}
+
+@keyframes bouncy{
+    0%{
+        top: 0px;
+    }
+
+    100%{
+top: -1500px
+    }
+
+}
+
+span{
+
+    color: darkorange;
+}
+
+h2{
+    color: aliceblue;
+}
+
+.BigFish{
+    width: 600px;
+    height: 425px;
+    margin: 25px;
+    display: flex;
+    justify-self: center;
+
+}
+
+.BigFishCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container2{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+    
+    height: 1000px;
+
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: lightcyan;
+    margin: 20px;
+    border-radius: 100px;
+    opacity: .5;
+}
+
+.bouncy4{
+
+    animation: bouncy 90s infinite;
+    position: relative;
+}
+
+
+.bouncy5{
+
+    animation: bouncy 100s infinite;
+    position: relative;
+
+}
+
+@keyframes bouncy{
+    0%{
+        top: 0px;
+    }
+
+    100%{
+top: -4400px
+    }
+
+}
+
+.PufferCon{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.PufferFish{
+
+    height: 425px;
+    width: 600px;
+    margin: 25px;
+    display: flex;
+    justify-self: center;
+
+}
+
+.Puffer2Con{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.PufferFish2{
+
+    height: 475px;
+    width: 600px;
+    margin: 25px;
+    display: flex;
+    justify-self: center;
+
+}
+
+.GoldfishCon{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.Goldfish{
+
+    height: 460px;
+    width: 600px;
+    margin: 25px;
+    display: flex;
+    justify-self: center;
+
+}
+
+.SharkCon{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.Shark{
+
+    height: 600px;
+    width: 1200px;
+    margin: 25px;
+    display: flex;
+    justify-self: center;
+
+}
+
+span2{
+
+color: black;
+
+}
+
+span2:hover{
+
+    color: red;
+
+}
+
+.ButtonCon{
+
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+
+}
